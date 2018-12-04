@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <string name="setting_url">setting_url</string>
+    <string name="setting_username">setting_username</string>
+    <string name="setting_password">setting_password</string>
+
+</resources>

@@ -1,0 +1,29 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="Settings">
+
+    <EditTextPreference
+        app:iconSpaceReserved="false"
+        android:key="@string/setting_url"
+        android:title="URL"
+        android:summary="Change URL"
+        android:inputType="textUri"/>
+
+    <EditTextPreference
+        app:iconSpaceReserved="false"
+        android:key="@string/setting_username"
+        android:title="Username"
+        android:summary="Change username"
+        android:inputType="textNoSuggestions"/>
+
+    <EditTextPreference
+        app:iconSpaceReserved="false"
+        android:key="@string/setting_password"
+        android:title="Password"
+        android:summary="Change password"
+        android:password="true"
+        android:textStyle="italic"
+        android:inputType="textPassword"/>
+
+</PreferenceScreen>
